@@ -7,6 +7,7 @@ import java.util.*;
 /**
  *
  * @author patel
+ Team member=Jasleen kaur 
  */
 public class WarGame {
     private Player player1;

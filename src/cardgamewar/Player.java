@@ -7,7 +7,7 @@ import java.util.*;
 /**
  *
  * @author patel
- Team member=Jasleen kaur
+ Team member=Jasleen kaur, Lakshit Lakshit
  */
 public class Player {
     private String name;

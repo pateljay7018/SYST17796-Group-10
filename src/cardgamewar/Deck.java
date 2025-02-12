@@ -8,7 +8,7 @@ import java.util.*;
 /**
  *
  * @author patel
- Team member= Jasleen kaur
+ Team member= Jasleen kaur, Lakshit Lakshit
  */
 public class Deck {
     private List<Card> cards;

@@ -3,14 +3,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package cardgamewar;
-
+import java.util.*;
 /**
  *
  * @author Jay patel
  * @team member : Jasleen Kaur, Lakshit
  */
 
-public class Card {
+class Card {
     private String suit;
     private String rank;
     private int value;
@@ -30,4 +30,5 @@ public class Card {
         return rank + " of " + suit;
     }
 }
+
 

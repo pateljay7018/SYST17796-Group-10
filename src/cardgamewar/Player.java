@@ -8,29 +8,31 @@ import java.util.*;
  *
  * @author patel
  */
-public class Player {
+class Player {
     private String name;
     private Queue<Card> hand;
+    private int score;
 
     public Player(String name) {
         this.name = name;
         this.hand = new LinkedList<>();
+        this.score = 0;
     }
 
     public void addCard(Card card) {
         hand.add(card);
     }
 
-    public void addWonCards(List<Card> wonCards) {
-        hand.addAll(wonCards);
-    }
-
     public Card playCard() {
         return hand.poll();
     }
 
-    public int getHandSize() {
-        return hand.size();
+    public void addScore() {
+        score++;
+    }
+
+    public int getScore() {
+        return score;
     }
 
     public String getName() {

@@ -9,7 +9,7 @@ import java.util.*;
  *
  * @author patel
  */
-public class Deck {
+class Deck {
     private List<Card> cards;
 
     public Deck() {
@@ -29,9 +29,4 @@ public class Deck {
     public Card drawCard() {
         return cards.isEmpty() ? null : cards.remove(0);
     }
-    
-    public boolean isEmpty() {
-        return cards.isEmpty();
-    }
-
 }
